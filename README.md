@@ -13,6 +13,8 @@ The preferred method is to use the [Sublime Package Manager](http://wbond.net/su
 If the plugin is unable to use your p4, it is possible that it keeps reporting that the file is not under the client root.  User @JLoppert suggests creating a symlink under OSX/Linux
 
     sudo ln -s /usr/bin/local/p4 /usr/bin/p4
+    or
+    sudo ln -s /usr/local/bin/p4 /usr/bin/p4
 
 ## Complete Documentation
 
